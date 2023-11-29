@@ -41,7 +41,7 @@ def e_search(query=None, max_results=1000):
 
 def e_search_id_list(query=None, max_results=1000):
     """
-    Perform a PubMed search using the E-utilities API and return the list of retrieved IDs.
+    Perform a PubMed search using the E-utilities API and return the list of retrieved IDs (total count for that query).
 
     Parameters:
     - query (str): The search query.
@@ -69,7 +69,7 @@ def id_key(args, kwargs):
 
 def format_bioC_url(paper_id, format_='xml', encoding='unicode'):
     """
-    Generate a BioC API URL for a PubMed Central article based on its ID.
+    Generate a BioC API URL for a PubMed Central article based on its ID (This formats the URL for the BioC API.)
 
     Parameters:
     - paper_id (str): The PubMed Central article ID.

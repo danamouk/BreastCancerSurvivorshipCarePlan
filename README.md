@@ -4,5 +4,5 @@ Fine-tuning BioBERT for breast cancer survivorship question answering through qu
 
 # Demo
 
-Explore the capabilities of our BreastCancerSurvivorshipCarePlan project with our interactive demo notebook: Demo.ipynb
+See our interactive demo notebook here: [demo.ipynb](https://github.com/danamouk/BreastCancerSurvivorshipCarePlan/blob/main/demo.ipynb)
 
